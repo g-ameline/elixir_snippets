@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+  <h1>Hello, <%= name %>!</h1>
+  <script>
+    alert('ya')
+  </script>
+  <script type="module">
+    import {print_yo} from "./script.js";
+    console.log(print_yo)
+    print_yo()
+  </script>
+</body>
+
+</html>
+
+</html>
